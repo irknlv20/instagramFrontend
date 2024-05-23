@@ -1,0 +1,73 @@
+.comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.comment-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.comment-left img{
+    width: 25px;
+    cursor: pointer;
+}
+.comment-left-container{
+    display: flex;
+    flex-direction: column;
+}
+.comment-left-container p{
+    font-size: 12px;
+}
+.comment-left-container p>span{
+    margin-right: 5px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.comment-left-container div:first-child{
+    display: flex;
+    gap: 5px;
+}
+.comment-left-container div:last-child{
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.comment-left-container small{
+    font-size: 10px;
+    font-weight: 600;
+    color: #6a6a6a;
+    cursor: pointer;
+}
+.comment-left-container small:last-child{
+    cursor: pointer;
+}
+.comment-left-container>div>span{
+    font-size: 10px;
+    font-weight: 400;
+    color: #6a6a6a;
+}
+.comment button{
+    background: none;
+    border:none;
+    cursor: pointer;
+}
+.comment-right img{
+    width: 15px;
+}
+.comment-left-logo img{
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+}
+.comment-content{
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    color: rgb(74, 74, 135) !important;
+}
+.refCom{
+    margin-left: 38px;
+}

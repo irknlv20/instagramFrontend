@@ -1,0 +1,36 @@
+.storiesFeed{
+    padding: 10px 20px;
+    border-bottom: 1px solid #DBDBDB;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+.storiesFeed-scroll{
+    display: flex;
+    gap: 15px;
+    transition: .6s;
+}
+.storiesFeed::-webkit-scrollbar{
+    display: none;
+}
+.storiesFeed-navigation button{
+    position: absolute;
+    background: none;
+    border: none;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+    display: none;
+}
+.storiesFeed-navigation button:first-child{
+    left: 15px;
+    top: -15px;
+    transform: rotate(180deg);
+    transform-origin: center center;
+}
+.storiesFeed-navigation button:last-child{
+    right: 15px;
+}
+.visible{
+    display: inline-block !important;
+}

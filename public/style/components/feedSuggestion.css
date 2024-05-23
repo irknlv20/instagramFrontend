@@ -1,0 +1,35 @@
+.feedSuggestion{
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feedSuggestion-left{
+    display: flex;
+    align-items: center;
+}
+.feedSuggestion-left img{
+    width: 32px;
+    margin-right: 12px;
+}
+.feedSuggestion-left>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.feedSuggestion-left p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.feedSuggestion-left span{
+    font-size: 12px;
+    color: #8E8E8E;
+}
+.feedSuggestion-right button{
+    font-size: 12px;
+    font-weight: 600;
+    color: #0095F6;
+    background: none;
+    border: none;
+}

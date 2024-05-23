@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 50px;
+}
+.footer>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.footer>div>a, .footer>div>span{
+    font-size: 11px;
+    font-weight: 400;
+    color:#737373;
+    text-decoration: none;
+}
+.footer-links-language{
+    display: flex;
+    align-items:center;
+    gap: 5px;
+}

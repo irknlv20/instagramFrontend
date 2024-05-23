@@ -1,0 +1,7 @@
+.postsFeed{
+    height: 1000px;
+    overflow-y: scroll;
+}
+.postsFeed::-webkit-scrollbar{
+    display: none;
+}

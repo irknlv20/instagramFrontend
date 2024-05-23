@@ -1,0 +1,75 @@
+.edit-profile{
+    text-align: center;
+    width: 400px;
+    border-radius: 10px;
+    height: 550px;
+    background-color: white;
+}
+.edit-profile-header{
+    padding: 10px;
+    height: 40px;
+    position: relative;
+    border-bottom: 1.5px solid #DBDBDB;
+}
+.edit-profile-container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.edit-profile-container>button{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #DBDBDB;
+    cursor: pointer;
+}
+.edit-profile-container-el{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1.5px solid #DBDBDB;
+    gap: 5px;
+    position: relative;
+    padding-bottom: 25px;
+}
+.edit-profile-container-el>small{
+    font-size: 14px;
+    font-style: italic;
+}
+.edit-profile-container-el>input{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.edit-profile-container-el>textarea{
+    border: none;
+    outline: none;
+    resize: none;
+    width: 100%;
+    padding-bottom: 5px;
+}
+.edit-profile-container-el>span{
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    font-size: 14px;
+    color: #a0a0a0;
+}
+.edit-profile-container-el>div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+}
+.edit-profile-container-el img{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+}
+.edit-profile-container-el-emoji{
+    position: absolute;
+    bottom: -98px;
+    right: 103%;
+}

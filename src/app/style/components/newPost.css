@@ -1,0 +1,210 @@
+.newPost, .modalWindow{
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modalWindow-closeButton{
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    background: none;
+    border: none;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    z-index: 300;
+}
+.newPost-modal{
+    margin: 50px auto;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+.newPost-header{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1.5px solid black;
+}
+.newPost-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 400px;
+}
+.newPost-modal h4, .editPost-modal h4{
+    font-size: 14px;
+    font-weight: 600;
+}
+.newPost-modal img{
+    width: 50px;
+}
+.newPost-modal p {
+    font-size: 16px;
+    font-weight: 600;
+}
+.newPost-modal input{
+    display: none;
+}
+.newPost-modal label{
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius:10px;
+    font-weight: 500;
+    background-color: #0095F6;
+    color: white;
+}
+.editPost-modal{
+    margin: 50px auto;
+    width: 800px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+.editPost-header{
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.editPost-header button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.editPost-header button>img{
+    width: 20px;
+}
+.editPost-header button:last-child{
+    color: #4493ef;
+}
+.editPost-container{
+    display: flex;
+    height: 460px;
+}
+.editPost-container-left{
+    height: 100%;
+    width: 65%;
+    background-color: #f8f8f8;
+    display: flex;
+}
+.editPost-container-left>img{
+    width: 100%;
+}
+.editPost-container-right{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.editPost-container-right-header{
+    border-top: 1.5px solid #DBDBDB;
+    border-bottom: 2px solid #c7c7c7;
+    padding: 10px 0;
+    position: relative;
+}
+.editPost-container-right-header h5{
+    color:#264474;
+    padding: 0 50px;
+}
+.editPost-container-right-header h5::before{
+    position: absolute;
+    content: "";
+    border-bottom: 2px solid black;
+    bottom: -2px;
+    left: 0;
+    width: 50%;
+}
+.editPost-container-right-filters{
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.editPost-filter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    color: gray;
+    width: 75px;
+    height: 85px;
+    padding: 2px;
+    border: 2px solid white;
+}
+.editPost-filter>img{
+    width: 60px;
+    border-radius: 5px;
+}
+.editPost-filter>span{
+    font-size: 12px;
+}
+.editPost-filter-selected{
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+.sharePost-container{
+    border-top: 1.5px solid #DBDBDB;
+    border-bottom: 1.5px solid #DBDBDB;
+    padding: 20px 20px;
+    width: 35%;
+    height: 65%;
+    position: relative;
+}
+.sharePost-container>div:first-of-type{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.sharePost-container>div img{
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+.sharePost-container-input{
+    position: relative;
+    border-bottom: 1.5px solid #DBDBDB;
+}
+.sharePost-container input{
+    border: none;
+    margin-bottom: 10px;
+    outline: none;
+    width: 100%;
+    padding-bottom: 15px;
+}
+.sharePost-container-textarea{
+    padding-top: 15px;
+    position: relative;
+}
+.sharePost-container textarea{
+    outline: none;
+    border: none;
+    resize: none;
+    width: 100% !important;
+    height: 120px;
+}
+.sharePost-container span{
+    position: absolute;
+    bottom: 5px;
+    right: 0px;
+    font-size: 14px;
+    color: #a0a0a0;
+}
+.sharePost-container small{
+    font-style: italic;
+    color: #2a2a2a;
+}

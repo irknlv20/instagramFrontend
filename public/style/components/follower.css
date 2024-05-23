@@ -1,0 +1,54 @@
+.follower{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.follower-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.follower-left-img img{
+    width: 40px;
+}
+.follower-left-info{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: flex-start;
+}
+.follower-left-info span{
+    color: #787878;
+}
+.follower-left-info>div{
+    display: flex;
+}
+.follower-left-info>div>button{
+    background: none;
+    border: none;
+    color: #3b90f2;
+    font-weight: 600;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.follower-left-info>div>h4{
+    position: relative;
+}
+.follower-left-info>div>h4::after{
+    content: '.';
+    position: absolute;
+    font-size: 28px;
+    bottom: 0;
+    right: -9px;
+    color: black;
+}
+.follower-right button{
+    background-color: #e8e8e8;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 7px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}

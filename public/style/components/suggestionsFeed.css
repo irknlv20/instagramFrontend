@@ -1,0 +1,30 @@
+.suggestionsFeed{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: 'Segoe UI', sans-serif;
+}
+.suggestionsFeed-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.suggestionsFeed-header h5{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #8E8E8E;
+}
+.suggestionsFeed-header button{
+    font-weight: 600;
+    color: black;
+    font-size: 12px;
+    line-height: 16px;
+    background: none;
+    border: none;
+}
+.suggestionsFeed-container{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}

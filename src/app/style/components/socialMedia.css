@@ -1,0 +1,16 @@
+.socialMedia{
+    margin: 20px 0;
+    width: 100%;
+    /* height: 943px; */
+    display: flex;
+    justify-content: space-between;
+}
+.socialMedia-left{
+    width: 61.25%;
+    padding: 10px 0;
+    border: 1px solid #DBDBDB;
+}
+.socialMedia-right{
+    padding: 5px 0;
+    width: calc(100% - 61.25% - 70px);
+}

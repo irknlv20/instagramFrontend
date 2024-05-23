@@ -1,0 +1,88 @@
+.storyModal-block{
+    z-index: 200;
+}
+.storyModal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+}
+.storyModal{
+    margin: 50px auto;
+    min-width: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    height: 100%;
+    transition: .8s;
+}
+.storyModal-window{
+    display: inline-block;
+    height: 80%;
+    transition: .8s;
+    margin: auto 0;
+}
+.storyModal-window img{
+    border-radius: 30px;
+    width: 300px;
+    height: 500px;
+}
+.isActiveStory, .isNextStory, .isPrevStory{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.isActiveStory{
+    transform: scale(1);
+}
+.isNextStory, .isPrevStory{
+    transform: scale(0.8);
+    transition: 0s;
+}
+.isActiveStory img{
+    transition: .8s;
+}
+.isNextStory img, .isPrevStory img{
+    transition: 0s;
+}
+.isActiveStory img{
+    transform: scale(1);
+}
+.isNextStory img, .isPrevStory img{
+    transform: scale(0.8);
+}
+.isDark{
+    background-color: rgba(0,0,0,0.6);
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+    position: absolute;
+    transform: scale(0.8);
+    transition: 0s;
+}
+.storyModal-leftButton, .storyModal-rightButton{
+    position: absolute;
+    width: 40px;
+    background: none;
+    border: none;
+    top: 0;
+    bottom: 0;
+    z-index: 210;
+}
+.storyModal-leftButton{
+    display: inline-block;
+    height: 40px;
+    margin: auto 0; 
+    left: 50px;
+    cursor: pointer;
+}
+.storyModal-rightButton{
+    right: 50px;
+    height: 40px;
+    margin: auto 0; 
+    cursor: pointer;
+    transform: rotate(180deg);
+}

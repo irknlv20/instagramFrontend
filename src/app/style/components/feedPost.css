@@ -1,0 +1,113 @@
+.feedPost{
+    width: 100%;
+    padding-top: 10px;
+}
+.feedPost-header{
+    margin: 7px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.feedPost-header-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.feedPost-header-item>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+}
+.feedPost-header>div span{
+    font-size: 11px;
+    font-style: italic;
+}
+.feedPost-header>button{
+    font-size: 26px;
+    height: 100%;
+    background: none;
+    border: none;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+    top:-4px;
+    cursor: pointer;
+}
+.feedPost-logo-img{
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+}
+.feedPost-logo img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.feedPost-content{
+    margin: 0 20px;
+}
+.feedPost-content img{
+    width: 100%;
+}
+.feedPost-info{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 7px 20px;
+    border-bottom: 1px solid #EFEFEF;
+    padding-bottom: 10px;
+}
+.feedPost-info p{
+    font-size: 12px;
+    font-weight: 600;
+    color:black;
+}
+.feedPost-info-action{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
+.feedPost-info-action>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.feedPost-info-action img{
+    cursor: pointer;
+}
+.feedPost h5{
+    margin-right: 5px;
+    max-width: 100%;
+}
+.pointer{
+    cursor: pointer;
+}
+.feedPost-info-text{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.feedPost-info-text h5>span{
+    font-size: 14px;
+    font-weight: 200;
+    margin-left: 5px;
+    word-wrap: break-word;
+}
+.feedPost-info-text h5>small{
+    color: #2d2d2d;
+    cursor: pointer;
+}
+.feedPost-info>small{
+    color: #8E8E8E;
+    display: block;
+    cursor: pointer;
+}
+.feedPost-info>span{
+    font-size: 12px;
+    color: #8E8E8E;
+}
+
